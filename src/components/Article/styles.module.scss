@@ -1,0 +1,47 @@
+.article {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  overflow: hidden;
+
+  > div {
+    padding: 1.6rem;
+
+    p {
+      margin-top: 1.6rem;
+      width: 100%;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: rgba(0, 0, 0, 0.75);
+    }
+
+    .articleLocation {
+      margin-top: 1.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+
+      svg {
+        color: #e45858;
+      }
+
+      span {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 25px;
+        color: rgba(0, 0, 0, 0.75);
+      }
+    }
+  }
+}
+
+// RESPONSIVE
+
+@media (max-width: 1024px) {
+  .article {
+    img {
+      width: 100%;
+    }
+  }
+}
